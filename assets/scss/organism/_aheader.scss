@@ -1,0 +1,54 @@
+.bnx-primary-header {
+
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    @media (max-width: 768px) {
+        display: none;
+
+    }
+
+    .bnx-header-right {
+        width: 50%;
+
+        img {
+            width: 14px;
+            height: 14px;
+        }
+
+        h6 {
+            color: #666;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+
+
+
+        .bnx-header-left {
+            width: 50%;
+
+            img {
+                width: 5px;
+                height: 5px;
+            }
+
+            h6 {
+                color: #666;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+            }
+        }
+
+    }
+    .btn-head:hover{
+        background-color: white;
+        color: #10385b;
+    }
+
+
+}

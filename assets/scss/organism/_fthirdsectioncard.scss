@@ -1,0 +1,58 @@
+.thirdcard {
+    display: flex;
+    justify-content: space-around;
+    // border: 2px solid red;
+
+    margin-top: -230px;
+    z-index: 20;
+    position: relative;
+
+    &__card {
+        background-color: #03549f;
+        // border: 2px solid green;
+        width: 20%;
+        padding: 20px;
+
+
+    }
+
+    &__card h4 {
+        color: white;
+        padding-top: 20px;
+    }
+
+
+    &__card p {
+        color: #80a9ce;
+    }
+}
+
+@include mobile {
+
+    .thirdcard {
+        flex-wrap: wrap;
+        width: 100%;
+
+        &__card{
+            flex-wrap: wrap;
+            width: 100%;  
+            text-align: center; 
+        }
+    }
+}
+
+@include tablet {
+
+    .thirdcard {
+        flex-wrap: wrap;
+        width: 100%;
+
+        &__card{
+            flex-wrap: wrap;
+            width: 100%; 
+            text-align: center; 
+        }
+    }
+}
+
+@include desktop {}

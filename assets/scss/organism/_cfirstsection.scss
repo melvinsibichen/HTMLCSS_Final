@@ -1,0 +1,111 @@
+.hero-section {
+    background-image: url(../../Assets/photos/Backgrounds/Rectangle4012.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+    padding-left: 30px;
+
+    &__arrow {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: space-around;
+        width: 40px;
+        height: 30px;
+        margin: 0px 15px;
+
+        background-color: #ffffff;
+        margin-bottom: 30px;
+    }
+
+    &__btn {
+        background-color: black;
+        color: #03ade2;
+        margin-bottom: 20px;
+    }
+
+
+    &__btn:hover {
+        background-color: #03ade2;
+        color: black;
+
+    }
+
+    &__discription {
+        color: #9ca2ae;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;       
+        display: 100%;
+        width: 40%;
+        padding-bottom: 30px;
+    
+    }
+
+    &__head {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 700;       
+        padding-top: 60px;
+        width: 50%;
+    
+    }
+
+}
+
+
+
+
+@include mobile {
+
+    .hero-section {
+      
+        
+        &__head{
+            text-align: center;
+            
+            width: 100%;
+        }
+        &__discription{
+            width: 100%;
+            text-align: center;
+        }
+        // &__btn{
+           
+        // }
+
+        // &__arrow{
+           
+        // }
+    }
+}
+
+@include tablet {
+    .hero-section {
+      
+        
+        &__head{
+            text-align: center;
+            
+            width: 100%;
+        }
+        &__discription{
+            width: 100%;
+            text-align: center;
+        }
+        // &__btn{
+           
+        // }
+
+        // &__arrow{
+           
+        // }
+    }
+}
+
+@include desktop {}

@@ -1,0 +1,59 @@
+.thirdsection {
+    // border: 2px solid green;
+    display: flex;
+    padding-bottom: 15rem;
+    background-color: #071d31;
+    color: white;
+    padding-top: 20px;
+
+    &__left {
+        padding-left: 20px;
+        width: 100%;
+
+    }
+
+
+    &__left p {
+        color: #828d97;
+    }
+
+
+    &__right p {
+        padding: 10px;
+        color: #828d97;
+       
+    }
+
+}
+
+
+
+
+@include mobile {
+
+    .thirdsection {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+
+        &__leftp{
+            text-align: center;
+
+        }
+       
+     }
+    }
+
+    
+
+@include tablet {
+    .thirdsection {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@include desktop {}
