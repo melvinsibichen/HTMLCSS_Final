@@ -1,18 +1,28 @@
-.thirdcard__card {
-    background-color: #03549f;
-    // border: 2px solid green;
-    width: 20%;
-    padding: 20px;
+.thirdcard {
+    display: flex;
+    justify-content: space-around;
+    // border: 2px solid red;
+
+    margin-top: -230px;
+    z-index: 20;
+    position: relative;
+
+    &__card {
+        background-color: #03549f;
+        // border: 2px solid green;
+        width: 20%;
+        padding: 20px;
 
 
-}
+    }
 
-.h4 {
-    color: white;
-    padding-top: 20px;
-}
+    &__card h4 {
+        color: white;
+        padding-top: 20px;
+    }
 
 
-.p {
-    color: #80a9ce;
+    &__card p {
+        color: #80a9ce;
+    }
 }
